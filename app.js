@@ -9,8 +9,15 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json()); 
 
+// view engine
+app.set('view engine', 'pug')
+
 // static files
-app.use('/', express.static('pub'));
+app.use('/assets', express.static('assets'));
+
+app.get('/', (req, res) => {
+    res.render('index')
+})
 
 // api
 app.use('/api', apiRoutes);

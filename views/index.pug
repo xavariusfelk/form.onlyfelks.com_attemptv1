@@ -1,0 +1,45 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Simple form v. 0.0.2
+        link(rel="stylesheet" href="/assets/style.css")
+    body
+        #form_container
+            form#form
+                label(for="name")
+                    | Provide your name (optional,
+                    font#remainingname 64
+                    | characters remaining)
+                input#name(
+                    type="text"
+                    name="name"
+                    placeholder="Your name here... (max. 64 characters)"
+                    maxlength="64"
+                )
+                br
+
+                label(for="question")
+                    | Provide your question (mandatory,
+                    font#remainingquestion 256
+                    | characters remaining)
+                input#question(
+                    type="text"
+                    name="question"
+                    placeholder="Your question here... (max. 256 characters)"
+                    maxlength="256"
+                )
+                
+                p By submitting your question you agree, that it may not be shown on stream and/or answered.
+                input(type="submit" value="Submit")
+                p#result 
+        
+        p#source
+            | Source and brains of this piece of crap is avaliable 
+            a(href="https://github.com/xavariusfelk/simple-form")
+                | on Github.
+                font#click-me-small-text (click me)
+
+        script(src="/assets/form.js")
+        script(src="/assets/remaining.js")
