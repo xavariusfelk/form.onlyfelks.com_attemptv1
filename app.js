@@ -1,6 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv')
 const apiRoutes = require('./routes/api');
+const indexRoutes = require('./routes/index');
 
 dotenv.config();
 const app = express();
@@ -15,11 +16,8 @@ app.set('view engine', 'pug')
 // static files
 app.use('/assets', express.static('assets'));
 
-app.get('/', (req, res) => {
-    res.render('index')
-})
-
-// api
+// routes
 app.use('/api', apiRoutes);
+app.use('/', indexRoutes)
 
 module.exports = app;
