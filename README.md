@@ -15,3 +15,9 @@ Good luck :)
 ### Misc stuff
 - Nodemon (for dev reasons)
 - dotenv
+
+### How to use
+Please check [DOCS.md](https://github.com/xavariusfelk/form.onlyfelks.com_attemptv1/DOCS.md) file.
+
+If something doesn't work then make an Issue on GitHub.
+If you want to contribute to this... _thing_ feel free to.
