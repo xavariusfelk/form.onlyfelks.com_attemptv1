@@ -17,7 +17,7 @@ PORT=8080
 JSON_FILE=form_data/responses.json
 ```
 
-Example structure of responses.json can be found in [`/data/example.json`](https://github.com/xavariusfelk/form.onlyfelks.com_attemptv1/data/example.json)
+Example structure of responses.json can be found in [`/data/example.json`](https://github.com/xavariusfelk/form.onlyfelks.com_attemptv1/blob/main/data/example.json)
 
 ### How to run app
 
@@ -35,7 +35,7 @@ Server running at http://localhost:PORT
 This doesn't do a lot of API calls to the backend as all that is submitted are two text inputs from user alongside of timestamp as I couldn't be bother to make it more complex.
 
 #### /api/submit
-Below you'll find what is submitted. You can also check source code of form submit script [here](https://github.com/xavariusfelk/form.onlyfelks.com_attemptv1/assets/form.js)
+Below you'll find what is submitted. You can also check source code of form submit script [here](https://github.com/xavariusfelk/form.onlyfelks.com_attemptv1/blob/main/assets/form.js)
 ```
 {
     "name": "",

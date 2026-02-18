@@ -17,7 +17,7 @@ Good luck :)
 - dotenv
 
 ### How to use
-Please check [DOCS.md](https://github.com/xavariusfelk/form.onlyfelks.com_attemptv1/DOCS.md) file.
+Please check [DOCS.md](https://github.com/xavariusfelk/form.onlyfelks.com_attemptv1/blob/main/DOCS.md) file.
 
 If something doesn't work then make an Issue on GitHub.
 If you want to contribute to this... _thing_ feel free to.
